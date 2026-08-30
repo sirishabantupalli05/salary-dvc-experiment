@@ -1,0 +1,8 @@
+stages:
+  train:
+    cmd: python train.py
+    deps:
+      - salary.csv
+      - train.py
+    outs:
+      - salary_model.pkl
