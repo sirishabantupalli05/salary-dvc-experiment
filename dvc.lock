@@ -5,8 +5,8 @@ stages:
     deps:
     - path: salary.csv
       hash: md5
-      md5: 764ff8fe46597d80d469e951ba76ef5c
-      size: 19360
+      md5: f1ebef55ca3d3d5ed5a0e1d4df56c521
+      size: 18598
     - path: train.py
       hash: md5
       md5: 39dc6e0f056b6d1ccc4e0cdb87be3021
@@ -14,5 +14,5 @@ stages:
     outs:
     - path: salary_model.pkl
       hash: md5
-      md5: 9ecb37260187ac62e828bd208bdfe2dc
-      size: 1691578
+      md5: 8ba42f070736eaa89f7d887d705a8a3a
+      size: 1531274
